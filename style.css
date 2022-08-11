@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url();
+}
+.Gangwon{
+    font-family: '강원교육새음',sans-serif;
+}
+.title{
+    color: #FFA723;
+    font-weight: 500;
+    padding: 200px 0 100px 70px;
+    font-size: 22px;
+}
+h4{
+    font-family: 'G마켓 산스 TTF';
+}
+/* 헤더 */
+body{
+   font-family: 'Pretendard',sans-serif;
+   color:#272626 ;
+}
+h2{
+    font-size: 55px;
+    font-family: 'G마켓 산스 TTF';
+    font-weight: bold;
+    line-height: 70px;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999px;
+    
+    
+}
+header h1{
+    margin-top: 70px;
+    margin-left: 90px;
+      
+}
+header h1>img{
+   width: 140px;
+}
+header{
+    display: flex;
+}
+header ul{
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+    
+}
+header ul li {
+    padding-top: 78px;
+    padding-left: 40px;
+    font-size: 40px;
+    
+    
+}
+header ul li:nth-child(3){
+    padding-right: 90px;
+}
+header ul li a{
+    color: #FB3C6A;
+    
+}
+header ul li a:hover{
+    background-color: #FB3C6A;
+    color: white;
+}
+
+/* 헤더메인텍스트 */
+#main{
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    background-image:url(images/hero-decoration.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 800px;
+}
+#main h2{
+    margin-top: 400px;
+}
+
+#main #main_txt p{
+    transition: .8s ;
+    transform: translateY(20px);
+    
+}
+#main_txt p{
+    
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.main_img>img{
+    width: 300px;
+    height: 400px;
+    margin-top: 300px;
+} 
+/* 웹 */
+#wed .wed_2{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    padding-bottom: 300px;
+}
+#wed .wed_1{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    padding-bottom: 300px;
+    padding-top: 200px;
+}
+#wed .wed_3{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+
+#wed h2{
+    font-size: 3.9rem;
+}
+#wed h4{
+    font-size: 24px;
+    padding-top: 30px;
+}
+#wed p{
+    line-height: 35px;
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+#wed a{
+    border: solid 1px #FB3C6A;
+    padding: 5px 10px;
+    font-family: '강원교육새음',sans-serif;
+    font-size: 30px;
+    color: #FB3C6A;
+}
+#wed a:hover{
+    background-color: #FB3C6A;
+    color: white;
+}
+
+
+
+/* 프로모션 */
+#promotion{
+    display: flex;
+    justify-content: center;
+}
+#promotion .promotion_txt{
+    padding-right:100px ;
+    
+}
+#promotion .promotion_txt h2{
+    padding-top: 70px;
+    font-size: 45px;
+}
+#promotion .promotion_txt h4{
+    font-size: 31px;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    
+}
+#promotion .promotion_txt .gnb{
+    padding-bottom: 35px;
+}
+#promotion .promotion_txt .gnb img{
+    padding-right: 30px;
+    padding-top: 5px;
+    
+}
+#promotion .promotion_txt .gnb a{
+    color: #272626;
+    font-size: 24px;
+}
+#promotion .promotion_txt .gnb .Gangwon{
+    font-size: 18px;
+    color: #FB3C6A;
+    padding-left: 40px;
+}
+#promotion .promotion_img{
+    width: 950px;
+    height: 1000px;
+    padding-top: 20px;
+}
+
+
+/* UI/UX 프로젝트 */
+.project{
+    display: flex;
+    flex-direction: column;
+}
+.project .project_txt{
+    padding-left: 100px;
+}
+.project .project_txt h2{
+    font-size: 63px;
+    line-height: 85px;
+}
+.project .project_txt span{
+    color: #FB3C6A;
+}
+.project .project_txt p{
+    font-weight: 600;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-left: 3px;
+    padding-bottom: 70px;
+}
+.project .project_img img{
+    width: 1850px;
+    padding-left: 60px;
+}
+
+/* 미들 */
+.middle{
+    display: flex;
+    justify-content: center;
+    padding:400px 0 150px 0;
+}
+.middle .middle_txt h2:nth-child(2){
+    padding-top: 50px;
+}
+
+.middle .middle_img{
+    width: 700px;
+}
+
+/* 스킬 */
+
+#skill {
+    padding-top: 100px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#skill .txt{
+    padding-left: 700px;
+    margin-bottom: 300px;
+    position: relative;
+}
+#skill .icon{
+    width: 300px;
+    position: absolute;
+    
+}
+#skill .txt h2{
+    width: 500px;
+    padding:20px 0 15px 0;
+    font-size: 30px;
+}
+#skill .txt p{
+    width: 400px;
+    line-height: 25px;
+
+}
+#skill .txt span{
+    font-weight: 500;
+}
+#skill .txt .color1{
+    color: #FFD54C ;
+}
+#skill .txt .color2{
+    color: #FB3C6A;
+}
+#skill .txt .color3{
+    color: #62A9E6;
+}
+
+footer{
+    display: flex;
+    background-color: #FFD54C;
+    height: 500px;
+    justify-content: space-around;
+}
+
+footer .color{
+    color: #A68F2C;
+}
+footer .left_txt{
+    margin-top: 100px;
+
+}
+footer .left_txt h2{
+    font-size: 35px;
+    padding-top: 40px;
+}
+footer .left_txt p{
+    font-weight: bold;
+}
+footer .left_txt .middle_1{
+    font-size: 19px;
+    padding-top: 100px;
+    font-weight: normal;
+}
+footer .right_txt .txt{
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+footer .right_txt{
+    margin-top: 100px;
+    
+}
+footer .right_txt p{
+    padding-top: 45px;
+}
+
+
