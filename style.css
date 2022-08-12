@@ -232,7 +232,9 @@ header ul li a:hover{
 }
 
 .middle .middle_img{
-    width: 700px;
+    width:480px;
+    padding-left: 150px;
+    height: 600px;
 }
 
 /* 스킬 */
