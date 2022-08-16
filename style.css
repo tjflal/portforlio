@@ -1,10 +1,19 @@
 @charset "utf-8";
 
 
+/* font-family: 'Shadows Into Light', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+/* pretendard */
 @font-face {
-    font-family: 'Pretendard';
-    src: url();
+  font-family: 'pretendard';
+  src: url(../../common/fonts/PretendardVariable.woff2);
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
 }
 .Gangwon{
     font-family: '강원교육새음',sans-serif;
@@ -18,6 +27,7 @@
 h4{
     font-family: 'G마켓 산스 TTF';
 }
+
 /* 헤더 */
 body{
    font-family: 'Pretendard',sans-serif;
@@ -75,6 +85,10 @@ header ul li a:hover{
 }
 
 /* 헤더메인텍스트 */
+
+
+
+
 #main{
     height: 1000px;
     display: flex;
@@ -87,6 +101,7 @@ header ul li a:hover{
 #main h2{
     margin-top: 400px;
 }
+
 
 #main #main_txt p{
     transition: .8s ;
