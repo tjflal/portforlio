@@ -1,0 +1,44 @@
+
+@charset "utf-8";
+
+html{
+    font-family:'Pretendard',sans-serif;
+}
+section{
+    display: flex;
+}
+.txt{
+   
+   margin-left: 150px;
+   margin-top: 150px;
+}
+.txt h2{
+    padding-bottom: 40px;
+    color: #FEDA00;
+    font-size: 2.2rem;
+}
+.txt p{
+    padding-bottom: 20px;
+    line-height: 40px;
+    font-size: 1.2rem;
+}
+.img{
+    padding-left: 140px;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+.img p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.img1{
+    width: 950px;
+}
+.img2{
+    width: 950px;
+}
+.img3{
+    padding-bottom: 50px;
+}
