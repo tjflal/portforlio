@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* 프리텐다드 */
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 800;
+	font-display: swap;
+	src: local('Pretendard ExtraBold'), url('fonts/woff2/Pretendard-ExtraBold.woff2') format('woff2'), url('./woff/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Pretendard Bold'), url('fonts/woff2/Pretendard-Bold.woff2') format('woff2'), url('./woff/Pretendard-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 600;
+	font-display: swap;
+	src: local('Pretendard SemiBold'), url('fonts/woff2/Pretendard-SemiBold.woff2') format('woff2'), url('./woff/Pretendard-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Pretendard Medium'), url('fonts/woff2/Pretendard-Medium.woff2') format('woff2'), url('./woff/Pretendard-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Pretendard Regular'), url('fonts/woff2/Pretendard-Regular.woff2') format('woff2'), url('./woff/Pretendard-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 300;
+	font-display: swap;
+	src: local('Pretendard Light'), url('fonts/woff2/Pretendard-Light.woff2') format('woff2'), url('./woff/Pretendard-Light.woff') format('woff');
+}
+
+
+/* 쥐마켓 */
+@font-face{
+    font-family: 'G마켓 산스 TTF';
+    src: local('GmarketSans Bold'), url('fonts/GmarketSansTTF/GmarketSansTTFBold.ttf') format('woff2')
+}
+@font-face{
+    font-family: 'G마켓 산스 TTF';
+    src: local('GmarketSans Medium'), url('fonts/GmarketSansTTF/GmarketSansTTFMedium.ttf') format('woff2')
+}
+@font-face{
+    font-family: 'G마켓 산스 TTF';
+    src: local('GmarketSans Light'), url('fonts/GmarketSansTTF/GmarketSansTTFLight.ttf') format('woff2')
+}
+
+/* 강원교육새음 */
+
+@font-face{
+    font-family: '강원교육새음';
+    src: local('강원교육새음 Medium'), url('fonts/강원교육새음.ttf')
+}
