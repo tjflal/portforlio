@@ -13,7 +13,7 @@
   font-weight: 700;
   font-display: swap;
   src: local("Pretendard Bold"),
-    url("fonts/woff2/Pretendard-Bold.woff2") format("woff2");
+    url("fonts/Pretendard-Bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -21,7 +21,7 @@
   font-weight: 600;
   font-display: swap;
   src: local("Pretendard SemiBold"),
-    url("fonts/woff2/Pretendard-SemiBold.woff2") format("woff2");
+    url("fonts/Pretendard-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
@@ -29,7 +29,7 @@
   font-weight: 500;
   font-display: swap;
   src: local("Pretendard Medium"),
-    url("fonts/woff2/Pretendard-Medium.woff2") format("woff2");
+    url("fonts/Pretendard-Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -37,7 +37,7 @@
   font-weight: 400;
   font-display: swap;
   src: local("Pretendard Regular"),
-    url("fonts/woff2/Pretendard-Regular.woff2") format("woff2");
+    url("fonts/Pretendard-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -45,7 +45,7 @@
   font-weight: 300;
   font-display: swap;
   src: local("Pretendard Light"),
-    url("fonts/woff2/Pretendard-Light.woff2") format("woff2");
+    url("fonts/Pretendard-Light.woff2") format("woff2");
 }
 
 /* 쥐마켓 */
