@@ -12,6 +12,23 @@ html{
     font-weight: 500;
     padding: 200px 0 100px 70px;
     font-size: 22px;
+    
+}
+
+
+.htimg{
+    width: 40px; 
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+@keyframes rotate {
+    to {
+      transform: rotate(360deg);
+      
+    }
 }
 h4{
     font-family: 'G마켓 산스 TTF';
