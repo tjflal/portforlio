@@ -243,8 +243,12 @@ main #main_service .title::after {
 
 
 #main_location {
+    padding-top: 100px;
     width:80%; 
     margin:50px auto
+}
+#main_location h2{
+    padding-bottom: 50px;
 }
 #main_location .map_wrapper {
     position: relative;
@@ -283,8 +287,7 @@ main #main_service .title::after {
     
 }
 #main_talk .layer {
-    height: 500px;
-    background-color: rgba(230, 237, 240, 0.151);
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -304,6 +307,7 @@ main #main_service .title::after {
 }
 #main_talk .ghost_btn:hover {
     background-color: #fff;
+    
     color: #000;
 }
 
@@ -315,7 +319,7 @@ footer{
     display: flex;
     flex-direction: row;
     padding: 150px;
-    padding:150px ;
+    
 }
 footer .box1{
     padding-left: 200px;
