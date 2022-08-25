@@ -133,6 +133,9 @@ header ul li a:hover{
     justify-content: space-around;
     padding-bottom: 300px;
 }
+#wed .wed_2 .wed_img{
+    padding-left: 28px;
+}
 #wed .wed_1{
     display: flex; 
     align-items: center; 
